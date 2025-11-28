@@ -1,0 +1,10 @@
+{entity_name: %Player% }
+	If %player% Has lp group (lp group here):
+	  If %player% is holding item: Diamond sword:
+ 	    Shoot Fireball 
+              Wait 1
+               Shoot Wither Skull
+                Wait 0.5
+                 Chat KABOOM to %player%
+              
+             
